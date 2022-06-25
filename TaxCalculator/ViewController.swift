@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 
 	@IBAction func CalculatePrice(_ sender: Any) {
 		let price = Double(PriceTxt.text!)!
-		let tex = Double(SalesTxt.text!)!
+		let tax = Double(SalesTxt.text!)!
 		
 		let totalPrice = price * tax + price
 		totalPriceLbl.text = "$\(totalPrice)"
