@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 		let price = Double(PriceTxt.text!)!
 		let tex = Double(SalesTxt.text!)!
 		
-		let totalPrice = price * tex + price
+		let totalPrice = price * tax + price
 		totalPriceLbl.text = "$\(totalPrice)"
 	}
 }
